@@ -5,9 +5,9 @@ function hide(selettore) {
   $(selettore).hide();
 }
 
-$('hamburger-menu').dblclick(function () {
+$('hamburger-menu').click(function () {
   show('hamburger-menu');
 })
-$('hamburger-menu').click(function () {
+$('hamburger-menu').dblclick(function () {
   hide('hamburger-menu');
 })
